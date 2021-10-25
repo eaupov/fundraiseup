@@ -8311,6 +8311,7 @@ body {
   font-family: WorkSans-Regular;
   font-weight: 400;
   background: #e5e5e5;
+  height: 200rem;
 }
 
 input,
@@ -8319,9 +8320,13 @@ select {
   height: 4rem;
 }
 
+.sticky-top {
+  top: 2.4em;
+}
+
 .content {
-  width: 1224px;
-  margin: 53px auto 0px;
+  width: 122.4rem;
+  margin: 5.3rem auto 0px;
 }
 
 .content .row {
@@ -8352,15 +8357,13 @@ select {
   width: 100%;
   padding: 1.5rem 0 1.5rem 3rem;
   background: #fafafa;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-shadow: 1px 3px 3px rgba(62,63,64,.1);
   box-shadow: 1px 3px 3px rgba(62,63,64,.1);
 }
 
 .content .row .header .search #search {
   background: url("../img/search.svg") 1.5rem center no-repeat;
+  background-size: 18px 18px;
   padding-left: 4.25rem;
   border-radius: 8px;
   margin-right: 3rem;
@@ -8378,9 +8381,6 @@ select {
 }
 
 .content .row .main-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -8396,12 +8396,10 @@ select {
 
 .content .row .main-content .main-content-left .info-donation {
   margin-bottom: 2.4rem;
+  margin-right: 2.4rem;
 }
 
 .content .row .main-content .main-content-left .info-donation .exchanges {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -8431,6 +8429,7 @@ select {
   height: 1.8rem;
   left: .1rem;
   top: .1rem;
+  background-size: 100%;
 }
 
 .content .row .main-content .main-content-left .info-donation .exchanges .bl-left .exchange {
@@ -8466,12 +8465,10 @@ select {
   margin-left: .8rem;
   top: .3rem;
   position: relative;
+  background-size: 100%;
 }
 
 .content .row .main-content .main-content-left .info-donation .features {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 1.4rem 0 1.5rem 3rem;
   background: #fafafa;
 }
@@ -8515,6 +8512,7 @@ select {
   left: .1rem;
   top: .2rem;
   border-radius: 100%;
+  background-size: 10px 9px;
 }
 
 .content .row .main-content .main-content-left .settings {
@@ -8549,31 +8547,31 @@ select {
   color: #00a651;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .tab-pane {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .tab-pane {
   border-bottom: 2px solid #dbdcde;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .tab-pane .sometext {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .tab-pane .sometext {
   font-size: 1.6rem;
   padding: 4rem 4rem 1.4rem 5.7rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into {
   padding: 4rem 4rem 1.4rem 5.7rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 2.4rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line.mb16 {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line.mb16 {
   margin-bottom: 1.6rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-title {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-title {
   font-size: 1.6rem;
   color: #2f2f30;
   padding: .75rem 0rem 0rem 0rem;
@@ -8582,11 +8580,11 @@ select {
   margin-right: 1.5rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-title.pad_dif {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-title.pad_dif {
   padding: 0;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-control {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-control {
   border: 1px solid #a9abae;
   border-radius: 6px;
   padding-left: 1.2rem;
@@ -8595,38 +8593,26 @@ select {
   flex: 1 1 auto;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-control#select-goal {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-control#select-goal {
   width: 19.2rem;
   margin-right: 2.4rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-select {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-select {
   border: 1px solid #a9abae;
   border-radius: 6px;
   padding-left: .75rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-select#select-designation {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-select#select-designation {
   width: 29.6rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-select#select-currency {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-select#select-currency {
   width: 8rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text.select {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text.wrap_slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text.wrap_slider .one-slider {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text.wrap_slider .one-slider {
   width: 21.75rem;
   height: .3rem;
   border: none;
@@ -8635,11 +8621,11 @@ select {
   margin: 2rem 1.6rem 0rem 0rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text.wrap_slider .one-slider .ui-widget-header {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text.wrap_slider .one-slider .ui-widget-header {
   background: #dbdcde;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text.wrap_slider .one-slider span {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text.wrap_slider .one-slider span {
   width: 1.9rem;
   height: 1.9rem;
   background: #2eb670;
@@ -8648,46 +8634,51 @@ select {
   top: -0.8rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text.wrap_slider .one-slider-value {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text.wrap_slider .one-slider-value {
   font-size: 1.6rem;
   padding: .9rem 0rem 0rem 0rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-check {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-check {
   padding: 0;
   margin-bottom: 1.5rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-check:last-child {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-check:last-child {
   margin-bottom: 0;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-check .form-check-input {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-check .form-check-input {
   width: 2.4rem;
   height: 2.4rem;
   margin: 0rem 1.3rem 0 0;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-check .form-check-input:checked[type=radio] {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-check .form-check-input:checked[type=radio] {
   background: transparent url("../img/on.svg") center center no-repeat;
   border-color: transparent;
+  background-size: 100%;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: none;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-check .form-check-input:focus {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-check .form-check-input:focus {
   border-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-check .form-check-input[type=checkbox] {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-check .form-check-input[type=checkbox] {
   border: 2px solid #2eb670;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-check .form-check-input:checked[type=checkbox] {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-check .form-check-input:checked[type=checkbox] {
   background: transparent url("../img/checkbox.svg") center center no-repeat;
+  background-size: 1.6rem 1.2rem;
 }
 
-.content .row .main-content .main-content-left .settings .settings-tabs .behavior-into .bl-line .bl-text .form-check .form-check-label {
+.content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-text .form-check .form-check-label {
   font-size: 1.6rem;
 }
 
@@ -8715,14 +8706,16 @@ select {
 }
 
 .content .row .menu {
-  width: 26.4rem;
+  min-width: 26.4rem;
   height: auto;
+  margin-left: 2.4rem;
 }
 
 .content .row .menu ul {
   list-style-type: none;
   padding: 0;
   background: #fff;
+  margin-bottom: 0;
 }
 
 .content .row .menu ul li:last-child a {
@@ -8752,6 +8745,7 @@ select {
   height: 1.8rem;
   left: 1.5rem;
   top: 1.7rem;
+  background-size: 100%;
 }
 
 .content .row .menu ul li a#menu-id-1:before {
@@ -14573,6 +14567,13 @@ select {
   }
 }
 
+@media (max-width: 1237px) {
+  .content,
+  .content .row .main-content .main-content-left {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
     overflow-x: auto;
@@ -14602,6 +14603,14 @@ select {
 
   .modal-fullscreen-xl-down .modal-footer {
     border-radius: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .content .row .menu {
+    min-width: 100%;
+    margin-left: 0;
+    margin-bottom: 2.4rem;
   }
 }
 
@@ -14666,6 +14675,32 @@ select {
 
   .modal-fullscreen-md-down .modal-footer {
     border-radius: 0;
+  }
+}
+
+@media (max-width: 660px) {
+  body {
+    height: auto;
+  }
+
+  .content .row .main-content .main-content-left .settings .settings-tabs ul {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    padding: .1rem 0 .1rem 2.3rem;
+  }
+
+  .content .row .main-content .main-content-left .settings .settings-tabs ul li button {
+    white-space: nowrap;
+  }
+
+  .content .row .main-content .main-content-left .settings .settings-tabs .tab-content {
+    overflow: auto;
+  }
+
+  .content .row .main-content .main-content-left .settings .settings-tabs .tab-content .tab-pane {
+    width: 59rem;
+    overflow: auto;
   }
 }
 

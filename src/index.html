@@ -8,14 +8,14 @@
 	</head>
 	<body>
 		<div class="content">
-			<div class="container-fluid g-0">
+			<div class="container-fluid g-xl-0 g-sm-5 g-5">
 				<div class="row g-0">
 					<div class="col">
 						<div class="header bl">
 							<div class="bl-top">
 								<div class="bl-title">Donations</div>
 							</div>
-							<div class="search">
+							<div class="search d-flex">
 								<input type="text" class="form-control" id="search" aria-describedby="search" placeholder="Search">
 								<select class="form-select" id="select-status" aria-label="statuses">
 									<option selected>All statuses</option>
@@ -29,10 +29,18 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<div class="main-content">
-							<div class="main-content-left">
+						<div class="main-content d-lg-flex">
+							<div class="menu order-1 order-lg-2">
+								<ul class="bl sticky-top">
+									<li><a href="#" id="menu-id-1">Change Amount</a></li>
+									<li><a href="#" id="menu-id-2">Change Payment Method</a></li>
+									<li><a href="#" id="menu-id-3">Change Date</a></li>
+									<li><a href="#" id="menu-id-4">Cancel Recurring</a></li>
+								</ul>
+							</div>
+							<div class="main-content-left order-2 order-lg-1">
 								<div class="info-donation bl">
-									<div class="exchanges">
+									<div class="exchanges d-flex">
 										<div class="bl-left">
 											<div class="bt-title">Donation</div>
 											<div class="exchange">€20.60 EUR<span>≈ $22.22 USD</span></div>
@@ -42,7 +50,7 @@
 											<div class="bl-id">DYHY694Y<a href="#" class="clipboard"></a></div>
 										</div>
 									</div>
-									<div class="features">
+									<div class="features d-flex">
 										<div class="one-feature">
 											<div class="bl-title">
 												Status
@@ -108,7 +116,7 @@
 														<div class="bl-title">
 															Goal
 														</div>
-														<div class="bl-text select">
+														<div class="bl-text select d-flex">
 															<input type="text" class="form-control" id="select-goal" aria-describedby="search" placeholder="$10.00" value="$10.00">
 															<select class="form-select" id="select-currency" aria-label="currencys">
 																<option selected>USD</option>
@@ -146,7 +154,7 @@
 														<div class="bl-title">
 															Border size
 														</div>
-														<div class="bl-text wrap_slider">
+														<div class="bl-text wrap_slider d-flex">
 															<div class="one-slider" id="border-size"></div>
 															<div class="one-slider-value" id="border-size-value">0px</div>
 														</div>
@@ -155,7 +163,7 @@
 														<div class="bl-title">
 															Border radius
 														</div>
-														<div class="bl-text wrap_slider">
+														<div class="bl-text wrap_slider d-flex">
 															<div class="one-slider" id="border-radius"></div>
 															<div class="one-slider-value" id="border-radius-value">0px</div>
 														</div>
@@ -181,14 +189,6 @@
 										<button type="button" id="cancel">Cancel</button>
 									</div>
 								</div>
-							</div>
-							<div class="menu">
-								<ul class="bl">
-									<li><a href="#" id="menu-id-1">Change Amount</a></li>
-									<li><a href="#" id="menu-id-2">Change Payment Method</a></li>
-									<li><a href="#" id="menu-id-3">Change Date</a></li>
-									<li><a href="#" id="menu-id-4">Cancel Recurring</a></li>
-								</ul>
 							</div>
 						</div>
 					</div>
