@@ -7,13 +7,197 @@
 		<title>Fundraise Up - Donations (Test)</title>
 	</head>
 	<body>
-		<header>
-		
-		</header>
 		<div class="content">
-			<div class="container">
+			<div class="container-fluid g-0">
+				<div class="row g-0">
+					<div class="col">
+						<div class="header bl">
+							<div class="bl-top">
+								<div class="bl-title">Donations</div>
+							</div>
+							<div class="search">
+								<input type="text" class="form-control" id="search" aria-describedby="search" placeholder="Search">
+								<select class="form-select" id="select-status" aria-label="statuses">
+									<option selected>All statuses</option>
+									<option value="1">First status</option>
+									<option value="2">Second status</option>
+									<option value="3">Third status</option>
+								</select>
+							</div>	
+						</div>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="main-content">
+							<div class="main-content-left">
+								<div class="info-donation bl">
+									<div class="exchanges">
+										<div class="bl-left">
+											<div class="bt-title">Donation</div>
+											<div class="exchange">€20.60 EUR<span>≈ $22.22 USD</span></div>
+										</div>
+										<div class="bl-right">
+											<div class="bl-title">ID</div>
+											<div class="bl-id">DYHY694Y<a href="#" class="clipboard"></a></div>
+										</div>
+									</div>
+									<div class="features">
+										<div class="one-feature">
+											<div class="bl-title">
+												Status
+											</div>
+											<div class="bl-text">
+												<div class="success-ico">Success</div>
+											</div>
+										</div>
+										<div class="one-feature">
+											<div class="bl-title">
+												Supporter
+											</div>
+											<div class="bl-text">
+												<a href="#">Charlotte Ann</a>
+											</div>
+										</div>
+										<div class="one-feature">
+											<div class="bl-title">
+												Campaign
+											</div>
+											<div class="bl-text">
+												<a href="#">Workout for water</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="settings bl">
+									<div class="settings-tabs">
+										<ul class="nav nav-tabs" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active" id="behavior-tab" data-bs-toggle="tab" data-bs-target="#behavior" type="button" role="tab" aria-controls="behavior" aria-selected="true">Behavior</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="appearance-tab" data-bs-toggle="tab" data-bs-target="#appearance" type="button" role="tab" aria-controls="appearance" aria-selected="false">Appearance</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="custom-fields-tab" data-bs-toggle="tab" data-bs-target="#custom-fields" type="button" role="tab" aria-controls="custom-fields" aria-selected="false">Custom Fields</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="questions-tab" data-bs-toggle="tab" data-bs-target="#questions" type="button" role="tab" aria-controls="questions" aria-selected="false">Questions</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="url-control-tab" data-bs-toggle="tab" data-bs-target="#url-control" type="button" role="tab" aria-controls="control" aria-selected="false">URL Control</button>
+											</li>
+										</ul>
+										<div class="tab-content" id="myTabContent">
+											<div class="tab-pane fade show active" id="behavior" role="tabpanel" aria-labelledby="behavior-tab">
+												<div class="behavior-into">
+													<div class="bl-line">
+														<div class="bl-title">
+															Designation
+														</div>
+														<div class="bl-text">
+															<select class="form-select" id="select-designation" aria-label="designations">
+																<option selected>Match Checkout Setting</option>
+																<option value="1">First designation</option>
+																<option value="2">Second designation</option>
+																<option value="3">Third designation</option>
+															</select>
+														</div>
+													</div>
+													<div class="bl-line">
+														<div class="bl-title">
+															Goal
+														</div>
+														<div class="bl-text select">
+															<input type="text" class="form-control" id="select-goal" aria-describedby="search" placeholder="$10.00" value="$10.00">
+															<select class="form-select" id="select-currency" aria-label="currencys">
+																<option selected>USD</option>
+																<option value="1">RUB</option>
+																<option value="2">GBP</option>
+																<option value="3">JPY</option>
+															</select>
+														</div>
+													</div>
+													<div class="bl-line">
+														<div class="bl-title pad_dif">
+															Default Amount
+														</div>
+														<div class="bl-text">
+															<div class="form-check">
+																<input class="form-check-input" type="radio" name="default-amount" id="default-amount1" aria-describedby="default-amount">
+																<label class="form-check-label" for="default-amount1">Match Checkout Setting</label>
+															</div>
+															<div class="form-check">
+																<input class="form-check-input" type="radio" name="default-amount" id="default-amount2" checked aria-describedby="default-amount">
+																<label class="form-check-label" for="default-amount2">Customize</label>
+															</div>
+														</div>
+													</div>
+													<div class="bl-line">
+														<div class="bl-title"></div>
+														<div class="bl-text">
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="change-default">
+																<label class="form-check-label" for="change-default">Allow donor to change default currency</label>
+															</div>
+														</div>
+													</div>
+													<div class="bl-line mb16">
+														<div class="bl-title">
+															Border size
+														</div>
+														<div class="bl-text wrap_slider">
+															<div class="one-slider" id="border-size"></div>
+															<div class="one-slider-value" id="border-size-value">0px</div>
+														</div>
+													</div>
+													<div class="bl-line">
+														<div class="bl-title">
+															Border radius
+														</div>
+														<div class="bl-text wrap_slider">
+															<div class="one-slider" id="border-radius"></div>
+															<div class="one-slider-value" id="border-radius-value">0px</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="appearance" role="tabpanel" aria-labelledby="appearance-tab">
+												<div class="sometext">Block Appearance</div>
+											</div>
+											<div class="tab-pane fade" id="custom-fields" role="tabpanel" aria-labelledby="custom-fields-tab">
+												<div class="sometext">Block Custom Fields</div>
+											</div>
+											<div class="tab-pane fade" id="questions" role="tabpanel" aria-labelledby="questions-tab">
+												<div class="sometext">Block Questions</div>
+											</div>
+											<div class="tab-pane fade" id="url-control" role="tabpanel" aria-labelledby="url-control-tab">
+												<div class="sometext">Block URL Control</div>
+											</div>
+										</div>
+									</div>
+									<div class="controls">
+										<button type="button" id="save">Save changes</button>
+										<button type="button" id="cancel">Cancel</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu">
+								<ul class="bl">
+									<li><a href="#" id="menu-id-1">Change Amount</a></li>
+									<li><a href="#" id="menu-id-2">Change Payment Method</a></li>
+									<li><a href="#" id="menu-id-3">Change Date</a></li>
+									<li><a href="#" id="menu-id-4">Cancel Recurring</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/script.min.js"></script>
 	</body>
 </html>
