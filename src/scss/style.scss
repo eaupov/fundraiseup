@@ -38,6 +38,10 @@ input,select{
 	height:4rem;
 }
 
+select::-ms-expand {
+    display: none;
+}
+
 .sticky-top{
 	top: 2.4em;
 }
