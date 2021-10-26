@@ -3,15 +3,15 @@
 Выполнено тестовое задание для соискателя вакансии "Верстальщик" в компании Fundraise Up
 
 Тестовое задание выполнено с использованием:  
-1) Git - система управления версиями 
-2) Gulp - таск-менеджер 
-3) Bootstrap 5 - библиотека HTML, CSS и JS 
-4) JqueryUI - библиотека для создания пользовательского интерфейса 
+1) Git - система управления версиями  
+2) Gulp - таск-менеджер  
+3) Bootstrap 5 - библиотека HTML, CSS и JS  
+4) JqueryUI - библиотека для создания пользовательского интерфейса  
 
 Использованы шрифты:  
-1) WorkSans Regular 
-2) WorkSans SemiBold 
-3) SourceCodePro-Regular 
+1) WorkSans Regular  
+2) WorkSans SemiBold  
+3) SourceCodePro-Regular  
 
 ### Ссылки
 
