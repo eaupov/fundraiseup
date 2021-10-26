@@ -15,9 +15,9 @@
 
 ### Ссылки
 
-[Ссылка на макет тестового задания](https://www.figma.com/file/hR3z385Eqg5vpGd1qaWCur/Frontend-Test?node-id=0%3A1) 
-[Ссылка на репозиторий с тестовым заданием](https://github.com/eaupov/fundraiseup) 
-[Ссылка на архив с тестовым заданием](https://github.com/eaupov/fundraiseup/archive/refs/heads/gh-pages.zip
+[Ссылка на макет тестового задания](https://www.figma.com/file/hR3z385Eqg5vpGd1qaWCur/Frontend-Test?node-id=0%3A1)  
+[Ссылка на репозиторий с тестовым заданием](https://github.com/eaupov/fundraiseup)  
+[Ссылка на архив с тестовым заданием](https://github.com/eaupov/fundraiseup/archive/refs/heads/gh-pages.zip)
 
 
 ### Примечания
