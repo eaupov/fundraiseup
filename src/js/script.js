@@ -1,3 +1,7 @@
+@@include('bootstrap.min.js')
+@@include('jquery.min.js')
+@@include('jquery-ui.min.js')
+
 $( function() {
 	$("#border-size").slider({
 		range: "max",

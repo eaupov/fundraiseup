@@ -8355,7 +8355,7 @@ select {
 
 .content .row .header .search {
   width: 100%;
-  padding: 1.5rem 0 1.5rem 3rem;
+  padding: 1.5rem 3rem 1.5rem 3rem;
   background: #fafafa;
   -webkit-box-shadow: 1px 3px 3px rgba(62,63,64,.1);
   box-shadow: 1px 3px 3px rgba(62,63,64,.1);
@@ -8407,7 +8407,7 @@ select {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 2.25rem 0 2.25rem 3rem;
+  padding: 2.25rem 3rem 2.25rem 3rem;
   border-bottom: 1px solid #dbdcde;
   background: #fff;
 }
@@ -8446,7 +8446,7 @@ select {
 .content .row .main-content .main-content-left .info-donation .exchanges .bl-right {
   font-family: SourceCodePro-Regular;
   font-size: 1.6rem;
-  margin-right: 3.1rem;
+  margin-right: .1rem;
 }
 
 .content .row .main-content .main-content-left .info-donation .exchanges .bl-right .bl-title {
@@ -8469,7 +8469,7 @@ select {
 }
 
 .content .row .main-content .main-content-left .info-donation .features {
-  padding: 1.4rem 0 1.5rem 3rem;
+  padding: 1.4rem 3rem 1.5rem 3rem;
   background: #fafafa;
 }
 
@@ -8578,6 +8578,8 @@ select {
   text-align: right;
   width: 12.7rem;
   margin-right: 1.5rem;
+  white-space: nowrap;
+  overflow: auto;
 }
 
 .content .row .main-content .main-content-left .settings .settings-tabs .tab-content .behavior-into .bl-line .bl-title.pad_dif {
@@ -14679,28 +14681,26 @@ select {
 }
 
 @media (max-width: 660px) {
-  body {
-    height: auto;
+  html {
+    font-size: 50%;
   }
 
-  .content .row .main-content .main-content-left .settings .settings-tabs ul {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-y: auto;
-    padding: .1rem 0 .1rem 2.3rem;
+  body {
+    height: auto;
   }
 
   .content .row .main-content .main-content-left .settings .settings-tabs ul li button {
     white-space: nowrap;
   }
+}
 
-  .content .row .main-content .main-content-left .settings .settings-tabs .tab-content {
-    overflow: auto;
+@media (max-width: 576px) {
+  .content .row .header .search #search {
+    margin-bottom: 1rem;
   }
 
-  .content .row .main-content .main-content-left .settings .settings-tabs .tab-content .tab-pane {
-    width: 59rem;
-    overflow: auto;
+  .content .row .main-content .main-content-left .info-donation .features .one-feature .bl-title {
+    width: 10rem;
   }
 }
 
@@ -14733,6 +14733,47 @@ select {
 
   .modal-fullscreen-sm-down .modal-footer {
     border-radius: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .content .row .main-content .main-content-left .info-donation .exchanges .bl-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  .content .row .main-content .main-content-left .info-donation .exchanges .bl-right .bl-title {
+    margin-right: 1rem;
+  }
+
+  .content .row .main-content .main-content-left .info-donation .features .one-feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-right: 0px;
+    border-bottom: 1px solid #d7d8da;
+    padding: 1rem 0rem;
+    margin-right: 0rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .content .row .main-content .main-content-left .settings .settings-tabs ul {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    padding: .1rem 0 .1rem 2.3rem;
+  }
+
+  .content .row .main-content .main-content-left .settings .settings-tabs .tab-content {
+    overflow: auto;
+  }
+
+  .content .row .main-content .main-content-left .settings .settings-tabs .tab-content .tab-pane {
+    width: 59rem;
+    overflow: auto;
   }
 }
 
