@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Welcome Fundraise Up - Donations (Test)
 
-You can use the [editor on GitHub](https://github.com/eaupov/fundraiseup/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Выполнено тестовое задание для соискателя вакансии "Верстальщик" в компании Fundraise Up
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Тестовое задание выполнено с использованием:
+1) Git - система управления версиями
+2) Gulp - таск-менеджер
+3) Bootstrap 5 - библиотека HTML, CSS и JS
+4) JqueryUI - библиотека для создания пользовательского интерфейса
 
-### Markdown
+Использованы шрифты:
+1) WorkSans Regular
+2) WorkSans SemiBold
+3) SourceCodePro-Regular
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Ссылки
 
-```markdown
-Syntax highlighted code block
+[Ссылка на макет тестового задания](https://www.figma.com/file/hR3z385Eqg5vpGd1qaWCur/Frontend-Test?node-id=0%3A1)
+[Ссылка на репозиторий с тестовым заданием](https://github.com/eaupov/fundraiseup)
+[Ссылка на архив с тестовым заданием](https://github.com/eaupov/fundraiseup/archive/refs/heads/gh-pages.zip)
 
-# Header 1
-## Header 2
-### Header 3
+### Примечания
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eaupov/fundraiseup/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1) Подключение библиотеки JqueryUI, нужно только для ползунков в разделе "Border size" и "Border radius", так как нет возможности стилизовать стандартные ползунки Bootstrap
+2) Так как нет макета для планшетной и мобильной версии, отображение в этих версиях сделал на своё усмотрение
+3) Ни разу не оформлял GitHub Pages
